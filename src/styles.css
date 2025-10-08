@@ -1,15 +1,11 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #5c3a3a;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .grid {
@@ -18,70 +14,21 @@ body {
 }
 
 .img-responsive {
-  width: 100%;
-  display: block;
+  max-width: 100%;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-columns {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-.embed {
-  width: 100%;
-  aspect-ratio: 1 /1;
-}
-
-.instagram-embeds {
-  margin: 30px 0;
-}
-
-.card {
-  background: white;
-  margin: 30px 0;
-}
-
-.card-header.grid {
-  grid-gap: 0;
-}
-
-.card-body {
-  padding: 30px;
-}
-
-.card-footer {
-  padding: 0 30px 30px;
-}
-
-.btn {
-  display: block;
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 16px;
-  background-color: #462cb3;
-  text-decoration: none;
-}
-
 section {
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px;
-}
-
-section.secondary {
-  background: #f8f8f8;
+  padding: 100px 0;
 }
 
 header {
@@ -121,7 +68,7 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
+  color: #5c3a3a;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -141,7 +88,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #5c3a3a;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -150,24 +97,8 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: #5c3a3a;
   margin: 0;
-}
-
-main h4 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1;
-  color: #272044;
-  margin: 0;
-}
-
-main h5 {
-  font-weight: 700;
-  font-size: 13px;
-  margin: 0;
-  line-height: 1;
-  color: #272044;
 }
 
 main p {
@@ -175,15 +106,15 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: #5c3a3a;
   opacity: 0.7;
 }
 
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(92, 58, 58, 0.9),
+      rgba(92, 58, 58, 0.9)
     ),
     url("../images/lisbon-footer.png");
 
@@ -240,16 +171,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-
   section {
-    padding: 30px;
-  }
-
-  .card-header img {
-    display: none;
-  }
-
-  .embed {
-    aspect-ratio: 16 / 9;
+    padding: 60px 20px;
   }
 }
